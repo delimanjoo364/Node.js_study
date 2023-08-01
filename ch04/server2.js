@@ -12,6 +12,6 @@ http.createServer(async (req, res) => {
     res.end(err.message);
   }
 })
-  .listen(8081, () => {
-    console.log('8081번 포트에서 서버 대기 중입니다!');
+  .listen(8080, () => {
+    console.log('8080번 포트에서 서버 대기 중입니다!');
   });
